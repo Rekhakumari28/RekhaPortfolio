@@ -1994,9 +1994,9 @@ progress {
 .form-control {
   display: block;
   width: 100%;
-  padding: 0.375rem 0.75rem;
-  font-size: 1rem;
-  font-weight: 400;
+  padding: 0.25rem 0.50rem;
+  font-size: 0.5rem;
+  font-weight: 200;
   line-height: 1.5;
   color: #212529;
   background-color: #fff;
@@ -2027,7 +2027,7 @@ progress {
   box-shadow: 0 0 0 0.25rem rgba(26, 188, 156, 0.25);
 }
 .form-control::-webkit-date-and-time-value {
-  height: 1.5em;
+  height: 1em;
 }
 .form-control::-moz-placeholder {
   color: #6c757d;
@@ -2042,10 +2042,10 @@ progress {
   opacity: 1;
 }
 .form-control::file-selector-button {
-  padding: 0.375rem 0.75rem;
+  padding: 0.25rem 0.50rem;
   margin: -0.375rem -0.75rem;
-  -webkit-margin-end: 0.75rem;
-          margin-inline-end: 0.75rem;
+  -webkit-margin-end: 0.50rem;
+          margin-inline-end: 0.50rem;
   color: #212529;
   background-color: #e9ecef;
   pointer-events: none;
@@ -2070,7 +2070,7 @@ progress {
   width: 100%;
   padding: 0.375rem 0;
   margin-bottom: 0;
-  line-height: 1.5;
+  line-height: 1;
   color: #212529;
   background-color: transparent;
   border: solid transparent;
@@ -2422,7 +2422,7 @@ textarea.form-control-lg {
 .form-floating > .form-control,
 .form-floating > .form-control-plaintext,
 .form-floating > .form-select {
-  height: 5.5rem;
+  height: 3.5rem;
   line-height: 1.25;
 }
 .form-floating > label {
@@ -5236,7 +5236,7 @@ textarea.form-control-lg {
 .modal {
   --bs-modal-zindex: 1055;
   --bs-modal-width: 500px;
-  --bs-modal-padding: 1rem;
+  --bs-modal-padding: 0.25rem;
   --bs-modal-margin: 0.5rem;
   --bs-modal-color: ;
   --bs-modal-bg: #fff;
@@ -5245,9 +5245,9 @@ textarea.form-control-lg {
   --bs-modal-border-radius: 0.75rem;
   --bs-modal-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
   --bs-modal-inner-border-radius: 0.625rem;
-  --bs-modal-header-padding-x: 1rem;
-  --bs-modal-header-padding-y: 1rem;
-  --bs-modal-header-padding: 1rem 1rem;
+  --bs-modal-header-padding-x: 0.5rem;
+  --bs-modal-header-padding-y: 0.5rem;
+  --bs-modal-header-padding: 0.5rem 0.5rem;
   --bs-modal-header-border-color: var(--bs-border-color);
   --bs-modal-header-border-width: 0.125rem;
   --bs-modal-title-line-height: 1.5;
@@ -10831,21 +10831,21 @@ html {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 2rem 0;
 }
 .page-section .page-section-heading {
-  font-size: 2.25rem;
-  line-height: 2rem;
+  font-size: 2.5rem;
+  line-height: 1.75rem;
 }
 @media (min-width: 992px) {
   .page-section .page-section-heading {
-    font-size: 3rem;
-    line-height: 2.5rem;
+    font-size: 2.5rem;
+    line-height: 1.75rem;
   }
 }
 
 .divider-custom {
-  margin: 1.25rem 0 1.5rem;
+  margin: .5rem 0 ;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -10853,7 +10853,7 @@ html {
 }
 .divider-custom .divider-custom-line {
   width: 100%;
-  max-width: 7rem;
+  max-width: 10rem;
   height: 0.25rem;
   background-color: #2c3e50;
   border-radius: 1rem;
@@ -10968,8 +10968,8 @@ html {
 }
 
 .masthead {
-  padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
@@ -10984,11 +10984,11 @@ html {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
+    padding-top: calc(1rem + 104px);
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 3.5rem;
   }
   .masthead .masthead-subheading {
@@ -11024,13 +11024,13 @@ html {
   padding: 1rem;
 }
 .portfolio-modal .portfolio-modal-title {
-  font-size: 2.25rem;
-  line-height: 2rem;
+  font-size: 1.5rem;
+  line-height: 1rem;
 }
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
-    font-size: 3rem;
-    line-height: 2.5rem;
+    font-size: 2.5rem;
+    line-height: 2rem;
   }
 }
 

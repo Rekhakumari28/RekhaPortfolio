@@ -52,3 +52,15 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+const formDataSubmit = document.querySelector("#contactForm")
+
+formData.addEventListener("submit", function(event){
+    event.preventDefault()
+const name = document.querySelector("#name").value;
+const email = document.querySelector("#email").value;
+const phone = document.querySelector("#phone").value
+const message = document.querySelector("#message").value
+
+console.log( `Your Name: ${name}, Email:${email}, Phone: ${phone}, Message: ${message}. Form submission successful!`)
+})
